@@ -83,7 +83,7 @@ $.fn.vs = function(options) {
 
         var scrollvector = {
             element: $(this),
-            tl: new TimelineLite({
+            tl: new TimelineMax({
                 paused: true
             }),
             as: options.as || [0, 1, 0, 0],
